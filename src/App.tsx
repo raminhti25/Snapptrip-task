@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import useFetchData from "./useFetchData";
+import useFetchData from "./hooks/useFetchData";
 
 function App() {
   const { loading, error, data, refetch } = useFetchData(
